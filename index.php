@@ -13,7 +13,7 @@ function elegant_shop_pro_customize_register_frontpage( $wp_customize ) {
     $wp_customize->add_panel( 
         'frontpage_settings',
          array(
-            'priority'    => 60,
+            'priority'    => 60, //s is 
             'capability'  => 'edit_theme_options',
             'title'       => esc_html__( 'Front Page Settings', 'elegant-shop-pro' ),
             'description' => esc_html__( 'Static Home Page settings.', 'elegant-shop-pro' ),
